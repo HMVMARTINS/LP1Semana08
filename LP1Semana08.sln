@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{EBA7035D-4F2B-4C4F-9713-A5DAE18788D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{C0596FA9-35CB-47CB-818D-68F523F3530E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBA7035D-4F2B-4C4F-9713-A5DAE18788D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA7035D-4F2B-4C4F-9713-A5DAE18788D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA7035D-4F2B-4C4F-9713-A5DAE18788D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA7035D-4F2B-4C4F-9713-A5DAE18788D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0596FA9-35CB-47CB-818D-68F523F3530E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0596FA9-35CB-47CB-818D-68F523F3530E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0596FA9-35CB-47CB-818D-68F523F3530E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0596FA9-35CB-47CB-818D-68F523F3530E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
